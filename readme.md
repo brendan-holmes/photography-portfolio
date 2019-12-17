@@ -8,6 +8,7 @@
 * Add embedded instagram
 * Name should be a link
 * "Works" text should not look clickable
+* Remove powered by Blogger at the bottom
 
 # Modifications
 
