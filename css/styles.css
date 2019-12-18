@@ -38,7 +38,7 @@ body, html {
 }
 
 body {
-	padding: 10px 0px 0px 0px;
+	padding: 0;
 	z-index: 0;
 }
 
@@ -61,15 +61,40 @@ body {
 	background-size: cover;
 }
 
+.content-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .home-img {
   max-width: 100%;
   height: auto;
-  max-height: 98vh;
+  max-height: 97vh;
+  padding: 0;
 }
 
 .portfolio-img {
 	max-width: 100%;
 	height: auto;
 	max-height: 50vh;
-	padding: 5px;
+}
+
+.portfolio-img + .portfolio-img {
+	padding-top: 10px;
+}
+
+.navbar-container {
+	min-width: 175px;
+}
+
+.navbar-brand {
+	padding: .5rem 1rem;
+}
+
+.nav-link {
+	padding: .2rem 1rem;
+}
+
+.nav-section {
+	padding: .5rem 0;
 }
