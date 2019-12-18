@@ -98,3 +98,11 @@ body {
 .nav-section {
 	padding: .5rem 0;
 }
+
+.about-box {
+	padding: 50px;
+}
+
+#contact-img, #about-img {
+	max-width: 100%;
+}
