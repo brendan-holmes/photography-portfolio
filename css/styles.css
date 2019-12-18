@@ -40,8 +40,6 @@ body, html {
 body {
 	padding: 10px 0px 0px 0px;
 	z-index: 0;
-	overflow-y: hidden;
-	overflow-x: hidden;
 }
 
 .tab-content {
@@ -63,13 +61,15 @@ body {
 	background-size: cover;
 }
 
-.image-container {
-  width: 300px;
-}
-
-.image-container img {
+.home-img {
   max-width: 100%;
   height: auto;
-  max-height: 100vh;
-  
+  max-height: 98vh;
+}
+
+.portfolio-img {
+	max-width: 100%;
+	height: auto;
+	max-height: 50vh;
+	padding: 5px;
 }
