@@ -33,12 +33,15 @@ address {
 	color: #0f0f0f;
 }
 
+body, html {
+	//height: 100%;
+}
+
 body {
-	padding: 50px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
 	z-index: 0;
 	overflow-y: hidden;
 	overflow-x: hidden;
-	height: 100%;
 }
 
 .tab-content {
@@ -63,15 +66,6 @@ body {
 	min-height: 300px;
 }
 
-img {
-	max-height: 100%;
-}
-
-body, html {
-	height: 100%;
-	padding: 0;
-}
-
 .cover-page-bg {
 	background-image: url('../img/IMG-1599.JPG');
 
@@ -84,7 +78,13 @@ body, html {
 	background-size: cover;
 }
 
-.home-page-img {
-	max-height: 100%;
-	max-width: 100%;
+.image-container {
+  width: 300px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100vh;
+  
 }
