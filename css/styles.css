@@ -69,14 +69,14 @@ body {
 .home-img {
   max-width: 100%;
   height: auto;
-  max-height: 97vh;
+  max-height: 98vh;
   padding: 0;
 }
 
 .portfolio-img {
 	max-width: 100%;
 	height: auto;
-	max-height: 50vh;
+	max-height: 98vh;
 }
 
 .portfolio-img + .portfolio-img {

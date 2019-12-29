@@ -4,4 +4,10 @@ Clean, minimal website for a photographer, florist, designer etc. Responsive des
 
 ## todo
 
-* On the home-page, make the spacing above and below the image the same
+* Navbar should follow the page (freeze)
+* On about, the text should be the width of the picture
+* 
+
+## Embedding instagram content
+
+* /users/self/meda/recent can get recent media. Returns JSON with image URLs and other data. Filter images by hashtag using string search or something.
