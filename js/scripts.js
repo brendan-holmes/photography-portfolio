@@ -1,2 +1,2 @@
 $(document).ready(function(){ $('.stelo-nav')
-	.load("nav.html"); }); 
+	.load("nav.html"); });

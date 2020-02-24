@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
+    "eager-image-loader": "^1.0.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.12.9"
   }
