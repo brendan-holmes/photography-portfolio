@@ -4,6 +4,7 @@ Clean, minimal website for a photographer, florist, designer etc. Responsive des
 
 ## todo
 
+* Use eager-image-loader package to manage image loading order
 * Navbar should follow the page (freeze)
 * On about, the text should be the width of the picture
 * 
